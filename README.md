@@ -1,5 +1,7 @@
 # crypto-browserify <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
+> Meteor Compat fork to keep dependencies updated for our own packages. Currently used inside `meteor-node-stubs`
+
 A port of node's `crypto` module to the browser.
 
 [![github actions][actions-image]][actions-url]
