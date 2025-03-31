@@ -2,7 +2,7 @@
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
   "name": "@meteorjs/crypto-browserify",
   "description": "implementation of crypto for the browser",
-  "version": "3.12.1",
+  "version": "3.12.2",
   "homepage": "https://github.com/meteor-compat/crypto-browserify",
   "sideEffects": false,
   "repository": {
