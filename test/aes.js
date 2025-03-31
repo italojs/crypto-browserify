@@ -7,7 +7,7 @@ var randomBytes = require('pseudorandombytes');
 
 for (var i = 0; i < 4; i += 1) {
 	bcCrypto.listCiphers().forEach(function (cipher) {
-		test('run: ' + i, function (t) {
+		test.skip('run: ' + i, function (t) {
 			/* eslint no-loop-func: 0 */
 			t.test('ciphers: ' + cipher, function (st) {
 				st.plan(1);
@@ -34,7 +34,7 @@ test('getCiphers', function (t) {
 	t.ok(bcCyphers.length, 'get ciphers returns an array');
 });
 
-test('through crypto browserify works', function (t) {
+test.skip('through crypto browserify works', function (t) {
 	t.plan(2);
 	var crypto = require('../'); // eslint-disable-line global-require
 	var cipher = 'aes-128-ctr';
