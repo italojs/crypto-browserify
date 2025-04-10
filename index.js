@@ -9,7 +9,7 @@ exports.createHash = exports.Hash = require('create-hash');
 // eslint-disable-next-line no-multi-assign
 exports.createHmac = exports.Hmac = require('create-hmac');
 
-var algos = require('browserify-sign/algos');
+var algos = require('@meteorjs/browserify-sign/algos');
 var algoKeys = Object.keys(algos);
 var hashes = [
 	'sha1',
@@ -50,14 +50,14 @@ exports.getDiffieHellman = dh.getDiffieHellman;
 exports.createDiffieHellman = dh.createDiffieHellman;
 exports.DiffieHellman = dh.DiffieHellman;
 
-var sign = require('browserify-sign');
+var sign = require('@meteorjs/browserify-sign');
 
 exports.createSign = sign.createSign;
 exports.Sign = sign.Sign;
 exports.createVerify = sign.createVerify;
 exports.Verify = sign.Verify;
 
-exports.createECDH = require('create-ecdh');
+exports.createECDH = require('@meteorjs/create-ecdh');
 
 var publicEncrypt = require('public-encrypt');
 
